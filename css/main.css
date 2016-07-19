@@ -1,0 +1,18 @@
+@font-face {
+    font-family: yolo-font-thin;
+    src: url(../fonts/yolo-font-thin.ttf) format('truetype');
+}
+
+.slogan h1.ui.header{
+    font-family: 'yolo-font-thin';
+    color: #50514F;
+    font-size: 36px;
+}
+
+.opacity-45 {
+    opacity: .45;
+}
+
+.borderless {
+    border: none!important;
+}
