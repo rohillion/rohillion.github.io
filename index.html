@@ -14,6 +14,28 @@
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript">
+        (function(e, t) {
+            function r(e, t) {
+                e[t] = function() {
+                    e.push([ t ].concat(Array.prototype.slice.call(arguments, 0)));
+                };
+            }
+            var n = "JacoRecorder";
+            (function(e, t, i, s) {
+                if (!i.__VERSION) {
+                    e[n] = i;
+                    var o = [ "init", "identify", "startRecording", "stopRecording", "removeUserTracking", "setUserInfo" ];
+                    for (var u = 0; u < o.length; u++) r(i, o[u]);
+                    i.__VERSION = 2, i.__INIT_TIME = 1 * new Date;
+                    var a = t.createElement("script");
+                    a.async = !0, a.setAttribute("crossorigin", "anonymous"), a.src = s;
+                    var f = t.getElementsByTagName("head")[0];
+                    f.appendChild(a);
+                }
+            })(e, t, e[n] || [], "//recorder-assets.getjaco.com/recorder_v2.js");
+        }).call(window, window, document), window.JacoRecorder.push([ "init", "e00358a8-ebc0-4534-9194-20442fed6985", {} ]);
+    </script>
 </head>
 <body>
 
